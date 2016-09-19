@@ -19,6 +19,11 @@ class SocialiteServiceProvider extends ServiceProvider
         $this->registerProviders();
     }
 
+    /**
+     * Register extends as a group.
+     *
+     * @return void
+     */
     public function registerProviders()
     {
         $this->registerWechat();
@@ -26,6 +31,11 @@ class SocialiteServiceProvider extends ServiceProvider
         $this->registerWeibo();
     }
 
+    /*
+     * Register a provider for wechat.
+     *
+     * @return void
+     */
     public function registerWechat()
     {
         $this->app->make('Laravel\Socialite\Contracts\Factory')->extend('wechat', function ($app) {
@@ -37,6 +47,11 @@ class SocialiteServiceProvider extends ServiceProvider
         });
     }
 
+    /*
+     * Register a provider for QQ.
+     *
+     * @return void
+     */
     public function registerQQ()
     {
         $this->app->make('Laravel\Socialite\Contracts\Factory')->extend('qq', function ($app) {
@@ -48,6 +63,11 @@ class SocialiteServiceProvider extends ServiceProvider
         });
     }
 
+    /*
+     * Register a provider for Weibo.
+     *
+     * @return void
+     */
     public function registerWeibo()
     {
         $this->app->make('Laravel\Socialite\Contracts\Factory')->extend('weibo', function ($app) {
