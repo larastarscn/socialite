@@ -1,9 +1,6 @@
 # Larastarscn Socialite
 
-[![Total Downloads](https://poser.pugx.org/laravel/socialite/d/total.svg)](https://packagist.org/packages/larastarscn/socialite)
-[![Latest Stable Version](https://poser.pugx.org/laravel/socialite/v/stable.svg)](https://packagist.org/packages/larastarscn/socialite)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/socialite/v/unstable.svg)](https://packagist.org/packages/larastarscn/socialite)
-[![License](https://poser.pugx.org/laravel/socialite/license.svg)](https://packagist.org/packages/larastarscn/socialite)
+[![License](https://poser.pugx.org/larastarscn/socialite/license.svg)](https://packagist.org/packages/larastarscn/socialite)
 [![Dependency Status](https://www.versioneye.com/php/laravel:socialite/dev-master/badge?style=flat)](https://www.versioneye.com/php/laravel:socialite/dev-master)
 
 ## Introduction
