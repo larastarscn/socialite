@@ -1,6 +1,8 @@
 {
     "name": "larastarscn/socialite",
     "description": "laravel socialite extends for chinese",
+    "keywords": ["oauth", "laravel", "wechat", "weibo", "socialite"],
+    "license": "MIT",
     "require": {
         "laravel/socialite": "^2.0"
     },
