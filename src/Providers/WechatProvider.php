@@ -92,7 +92,7 @@ class WechatProvider extends AbstractProvider implements ProviderInterface
     public function mapUserToObject(array $user)
     {
         return (new User())->setRaw($user)->map([
-          'openid' => $user['openid'], 'nickname' => $user['nickname'],
+          'id' => $user['openid'], 'nickname' => $user['nickname'],
           'avatar' => $user['headimgurl'], 'name' => $user['nickname'],
           'email'  => null,
         ]);
